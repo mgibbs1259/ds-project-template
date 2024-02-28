@@ -1,4 +1,4 @@
-# Project
+# DS Project Template
 
 # Docker Development Environment
 
