@@ -27,7 +27,7 @@ If you need to customize the Docker development environment, modify the .devcont
 # Structure
 
 ```
-├── README.md <- The top-level README for developers using this project.
+├── .devcontainer <- Folder for storing development container configuration files.
 │
 ├── data
 │ ├── interim <- Intermediate data that has been transformed.
@@ -59,12 +59,16 @@ If you need to customize the Docker development environment, modify the .devcont
 ├── .example-env <- Example environment file for setting up your project environment.
 │   Create a .env file based on this and fill out appropriate variables.
 │
-├── Dockerfile.dev <- The Dockerfile for reproducing the analysis environment.
+├── .gitignore <- File to specify intentionally untracked files to ignore.
 │
-├── requirements.txt <- The requirements file for reproducing the analysis environment.
+├── Dockerfile.dev <- The Dockerfile for reproducing the analysis environment.
 │
 ├── main.py <- The main file for running a Python API using FastAPI.
 │   Run using `uvicorn main:app --host 0.0.0.0 --port 5000 --reload`.
+│
+├── README.md <- The top-level README for developers using this project.
+│
+├── requirements.txt <- The requirements file for reproducing the analysis environment.
 │
 ├── run_pipelines.py <- The main file for running data, feature, and model pipelines.
 ```
