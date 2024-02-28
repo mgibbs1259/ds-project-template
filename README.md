@@ -63,5 +63,8 @@ If you need to customize the Docker development environment, modify the .devcont
 │
 ├── requirements.txt <- The requirements file for reproducing the analysis environment.
 │
+├── main.py <- The main file for running a Python API using FastAPI.
+│   Run using `uvicorn main:app --host 0.0.0.0 --port 5000 --reload`.
+│
 ├── run_pipelines.py <- The main file for running data, feature, and model pipelines.
 ```

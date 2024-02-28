@@ -1,6 +1,8 @@
+fastapi
 matplotlib
 numpy
 pandas
 plotly
 seaborn
 scikit-learn
+uvicorn
