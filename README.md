@@ -57,7 +57,7 @@ If you need to customize the Docker development environment, modify the .devcont
 │ │ └── generate_visualizations.py
 │
 ├── tests <- Tests for the source code used in this project.
-│   Run using `pytest`.
+│   Run using: pytest.
 │
 ├── .example-env <- Example environment file for setting up your project environment.
 │   Create a .env file based on this and fill out appropriate variables.
@@ -67,7 +67,7 @@ If you need to customize the Docker development environment, modify the .devcont
 ├── Dockerfile.dev <- The Dockerfile for reproducing the analysis environment.
 │
 ├── main.py <- The main file for running a Python API using FastAPI.
-│   Run using `uvicorn main:app --host 0.0.0.0 --port 5000 --reload`.
+│   Run using: uvicorn main:app --host 0.0.0.0 --port 5000 --reload.
 │
 ├── README.md <- The top-level README for developers using this project.
 │
