@@ -3,6 +3,7 @@ matplotlib
 numpy
 pandas
 plotly
+pytest
 seaborn
 scikit-learn
 uvicorn

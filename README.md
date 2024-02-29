@@ -56,6 +56,8 @@ If you need to customize the Docker development environment, modify the .devcont
 │ └── visualization <- Scripts to create exploratory and results oriented visualizations
 │ │ └── generate_visualizations.py
 │
+├── tests <- Tests for the source code used in this project.
+│
 ├── .example-env <- Example environment file for setting up your project environment.
 │   Create a .env file based on this and fill out appropriate variables.
 │
